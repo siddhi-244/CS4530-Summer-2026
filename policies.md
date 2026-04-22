@@ -13,7 +13,7 @@ There will be individual projects (previously known as assignments) and a team p
 * 10% Participation in synchronous class, activities, and project-related work sessions
 * 20% Exam
 
-We generally follow the grading scale that looks like this: As for 90s, Bs for 80s, Cs for 70s, Ds for 60s and F for <60. Each instructor uses their own thresholds for '+' and '-' grades.
+We generally follow the grading scale that looks like this: As for 90s, Bs for 80s, Cs for 70s, Ds for 60s and F for <60. Each instructor uses their own thresholds for '+' and '-' grades which may change based on overall performance in the course and participation.
 
 **Assignment of team project grades:** In cases where team members do not equally contribute to the project, we may assign different grades to different individuals, up to an extreme of deducting 50% of the team project grade for a student (which might arise to 100% deduction for not contributing to the project at all). We will evaluate each individual's contribution on the basis of a variety of factors, including progress reports at weekly meetings, through inspecting version control history, through each students' self-reflection, and through each students' peer evaluation {during and/or} at the end of the project. We will make regular efforts to collect and distribute this feedback throughout the project — our ultimate goal is for all students to participate and receive full marks.
 

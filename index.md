@@ -35,7 +35,7 @@ This class will serve as an introduction to the field of software engineering, c
 ### Course Delivery
 The course will be delivered in a "traditional" lecture style. Online section will be entirely virtual, and the other sections will be entirely on-the-ground, with no virtual participation option. You must attend the section for which you have registered, and you may not partner with students in other sections for the term project.
 
-| Section       | Instructor                                                                | Meeting Time                                 | Meeting Place      |
+| Section       | Instructor(s)                                                                | Meeting Time                                 | Meeting Place      |
 |---------------|---------------------------------------------------------------------------|----------------------------------------------|--------------------|
 | 1             | Prof Bhutta                                                               | MTWR 11:40 am - 1:20 pm                        | WVG 104 |
 
@@ -45,7 +45,7 @@ you will be "onboarded" to our codebase, make several individual contributions, 
 The codebase that we'll be developing on is a GameNite project. You will get an opportunity to work with the starter code which provides basic skeleton for the app and then additional features will be proposed and implemented by you!
 All implementation will take place in the TypeScript programming language, using React for the user interface.
 
-At the end of the semester, the instructors and TAs will evaluate all of the student projects, and select the best (in terms of usability, code quality, test suite quality, and overall design) to showcase on course website. 
+At the end of the semester, the instructor(s) and TAs will evaluate all of the student projects, and select the best (in terms of usability, code quality, test suite quality, and overall design) to showcase on course website. 
 
 The project will provide hands-on experience to complement the skills taught in this class, requiring students to be able to:
 - Work effectively in a small team
