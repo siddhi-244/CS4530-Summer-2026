@@ -9,7 +9,6 @@ nav_order: 1
 ## Policy on use of AI
 Our policy on use of AI can be found below:
 
-
 ### For all written work:
 We ask for written reflections to understand your own thought process and practice communication, not because we want to read lots of LLM output. Please show respect and do not use LLM-based tools to generate your written assignments.
 
