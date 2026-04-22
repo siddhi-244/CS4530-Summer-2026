@@ -37,7 +37,7 @@ The course will be delivered in a "traditional" lecture style. Online section wi
 
 | Section       | Instructor                                                                | Meeting Time                                 | Meeting Place      |
 |---------------|---------------------------------------------------------------------------|----------------------------------------------|--------------------|
-| 1             | Prof Bhutta                                                               | MTWR 11:40 am - 1:20 pm                        | TBA |
+| 1             | Prof Bhutta                                                               | MTWR 11:40 am - 1:20 pm                        | WVG 104 |
 
 ## Course Project
 The assignments and project for this class are designed to mirror the experiences of a software engineer joining a new development team:
