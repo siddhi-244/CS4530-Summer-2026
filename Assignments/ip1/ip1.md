@@ -36,7 +36,7 @@ The objectives of this assignment are to:
 
 If you were registered for the class before Wednesday, May 6, you should have an email from a TA with an invitation to our organization. Be sure to check your spam/junk folder. The first step is to accept the invitation. If you cannot find the invitation, if you registered for the class late, or have any other issue that keeps you from getting started, please create a Piazza post to contact us and we will try to help.
 
-After that, accept our GitHub Classroom Invitation for this assignment. It will create a Github repository for you which will include the starter code for this assignment.
+After that, accept our GitHub Classroom Invitation for [this assignment](https://classroom.github.com/a/7eYHlaH6). It will create a Github repository for you which will include the starter code for this assignment.
 
 If you are new to Git, you may want to work on "Learning Basics of Git" assignment first! We expect all students to be able to use add/commit/push for their work.
 
