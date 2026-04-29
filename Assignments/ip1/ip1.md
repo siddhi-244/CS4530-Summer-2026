@@ -195,28 +195,27 @@ Places to look for guidance:
  - The type specification for a game implementation in `server/src/games/gameLogic.ts`, explains what each unimplemented function does.
  - The types of Connect4 in `shared/src/games/connect4.types.ts`, explain in detail how the game is intended to work.
  - The implementations of Nim and Guessing Game in the directory `server/src/games`, which may be a helpful basis for comparison.
-
-A reference implementation is available at <https://gamenite.onrender.com/>, you'll need to create an account (or two) to use this reference implementation. Note that `shared/src/games/connect4.types.ts` refers to the players by their `playerIndex`: the user that initiates the game is given index 0, and the second player has index 1. The frontend refers to these as "Player #1" and "Player #2", respectively.
+ - The provided test file `server/tests/games/connect4.spec.ts` can help you reason about the expected behavior of Connect 4.
 
 This task is worth 25 points: 
  - 15 points will be assigned automatically based on passing our test suite
  - 10 points will be assigned by TAs manually checking for issues with [code style]({{ site.baseurl }}{% link style.md %}). Take care to document any helper functions you include.
 
-### Task 2: Tests for Connect4
+### Task 2: Tests for Tic-Tac-Toe
 
 The purpose of this part of the assignment is to get used to writing Vitest tests. *(Copilot-esque LLM autocompletion is quite good at writing tests, and you'll have a chance to try this out later in the class. If you have Copilot-style autocompletion enabled, you are violating the course's academic integrity policy and risking a failing grade, and in addition, this task will be exceptionally pointless and boring.)*
 
-Write tests for Connect4 in a new file, `server/tests/games/connect4.spec.ts`. Your tests should achieve full branch coverage on your own implementation of Connect4: when you run `npm run test` in the `server` directory, Vitest should report no "Uncovered Line #s" in `src/games/connect4.ts`. (You can also open the `index.html` file in the `coverage` folder that `vitest` creates when you run `npm run test`, which provides an easily readable coverage report.) There are other parts of the application that don't have full coverage, but you only need to worry about coverage of the `connect4.ts` implementation.
+Write tests for Tic-Tac-Toe in the file, `server/tests/games/ticTacToe.spec.ts`. Your tests should achieve full branch coverage on the current implementation of Tic Tac Toe: when you run `npm run test` in the `server` directory, Vitest should report no "Uncovered Line #s" in `src/games/ticTacToe.ts`. (You can also open the `index.html` file in the `coverage` folder that `vitest` creates when you run `npm run test`, which provides an easily readable coverage report.) There are other parts of the application that don't have full coverage, but you only need to worry about coverage of the `ticTacToe.ts` implementation.
 
 Make sure to look at the tests for Nim and Guessing Game, they will provide an excellent guide.
 
 This task is worth 20 points:
- - 5 points for having tests that reasonably test each of the main functions you have implemented 
+ - 5 points for having tests that reasonably test the functions in the implementation 
  - 5 points for following the format and style of the Nim and Guessing Game tests
- - 6 points for achieving full branch coverage for `connect4.ts` (3 points for 90%+ branch coverage)
- - 4 points for your tests working against some of our custom "mutants" — your tests should not be overspecified (they should pass valid implementations of `connect4.ts` that may be slightly different than your own), and they should correctly catch and fail implementations of Connect4 that have bugs.
+ - 6 points for achieving full branch coverage for `ticTacToe.ts` (3 points for 90%+ branch coverage)
+ - 4 points for your tests working against some of our custom "mutants" — your tests should not be overspecified (they should pass valid implementations of `ticTacToe.ts` that may be slightly different than the provided one), and they should correctly catch and fail implementations of Tic-Tac-Toe that have bugs.
 
-Watch out on Piazza — we will try to set up an autograder that optionally lets you test your tests against our mutants Connect4 implementations closer to the assignment deadline. We'll also allow you to test your own Connect4 implementations, and reserve the right to give bonus points to anyone who can show a valid Connect4 implementation that fails our tests.
+Watch out on Piazza — we will release mutant Tic-Tac-Toe implementations that you can use to test your tests locally. Your tests should pass valid implementations and catch the buggy ones.
 
 ### Task 3: Exposing Errors in the User Service
 
