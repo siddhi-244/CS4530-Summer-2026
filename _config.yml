@@ -17,7 +17,7 @@ title: CS4530, Summer 2026
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Northeastern University CS 4530 "Fundamentals of Software Engineering",
-  Spring 2026. Professor Adeel Bhutta.
+  Summer 2026. Professor Adeel Bhutta.
 tagline: Fundamentals of Software Engineering
 baseurl: '/CS4530-Summer-2026' # the subpath of your site, e.g. /blog
 url: 'https://neu-se.github.io' # the base hostname & protocol for your site, e.g. http://example.com
