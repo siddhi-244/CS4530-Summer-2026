@@ -31,13 +31,13 @@ of course, build it from source.
 Due to the complexity of running different Node.js versions on the same machine, we _**very strongly**_ suggest using [nvm, the node version manager](https://github.com/nvm-sh/nvm). When language runtimes
 are in active development (like Node.js is), sometimes you end up needing to have multiple versions of Node.js installed,
 and different projects that you work on might require different versions of Node.js. These annoyances are quite rare,
-but when it happens that you need to have mutliple versions of Node.js installed, it's super handy to have your system set up already
+but when it happens that you need to have multiple versions of Node.js installed, it's super handy to have your system set up already
 so that installing multiple versions and switching between it is easy. You can use our instructions to set up nvm even if you
 have previously installed Node.js.
 
 ## Installing NodeJS with NVM for Windows
 
-Before starting the installation, make sure to kill your Visual Studio Code if you have it installed. To do that on Windows, open a command prompt(type `cmd` in the windows start bar, then select "Run as administrator") and run the command `taskkill.exe /IM code.exe`.
+Before starting the installation, make sure to kill your Visual Studio Code if you have it installed. To do that on Windows, open a command prompt (type `cmd` in the windows start bar, then select "Run as administrator") and run the command `taskkill.exe /IM code.exe`.
 
 1. Download `nvm-setup.exe` from the most recent release of [nvm-windows](https://github.com/coreybutler/nvm-windows/releases) (at time of writing this document, version was 1.2.2).
 
@@ -225,7 +225,7 @@ Typescript is a superscript of JavaScript which adds type information and other 
 6. Modify your file to produce a type error by trying to write a `number` to the variable `message` that has type `string`:
 
    - observe the message that you get.
-   - ![image](./assets/week1-getting-started/ts/run1.png)
+   - ![image](./assets/week1-getting-started/ts/run2.png)
 
 7. Run the command `node hello-world.ts`. What happens?
 
