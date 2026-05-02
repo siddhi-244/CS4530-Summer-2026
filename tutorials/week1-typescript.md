@@ -945,7 +945,7 @@ Each TypeScript file in our project is a separate [JavaScript module](https://de
 *   **export** makes the variables and functions from a module visible outside it.
 *   **import** allows us to use variables and functions exported by another module.
 
-There are two ways of exporting from a JavaScript or TypeScript module: adding `export` before the functions declaration (like `add` and `someVar` in the example below), and writing a separate `export` statemen (like `subtract` in the example below:
+There are two ways of exporting from a JavaScript or TypeScript module: adding `export` before the functions declaration (like `add` and `someVar` in the example below), and writing a separate `export` statement (like `subtract` in the example below:
 
 ```ts
 // file1.ts

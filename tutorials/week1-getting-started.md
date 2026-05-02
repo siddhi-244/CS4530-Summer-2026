@@ -6,7 +6,7 @@ parent: Tutorials
 nav_order: 1
 ---
 
-This tutorial describes the basic steps needed to set up a development environment with NodeJS, TypeScript, and VisualStudio Code.
+This tutorial describes the basic steps needed to set up a development environment with NodeJS, TypeScript, and Visual Studio Code.
 At the end of this tutorial, you should have a complete local development environment that you can use to build and test
 code for this class.
 
@@ -31,13 +31,13 @@ of course, build it from source.
 Due to the complexity of running different Node.js versions on the same machine, we _**very strongly**_ suggest using [nvm, the node version manager](https://github.com/nvm-sh/nvm). When language runtimes
 are in active development (like Node.js is), sometimes you end up needing to have multiple versions of Node.js installed,
 and different projects that you work on might require different versions of Node.js. These annoyances are quite rare,
-but when it happens that you need to have mutliple versions of Node.js installed, it's super handy to have your system set up already
+but when it happens that you need to have multiple versions of Node.js installed, it's super handy to have your system set up already
 so that installing multiple versions and switching between it is easy. You can use our instructions to set up nvm even if you
 have previously installed Node.js.
 
 ## Installing NodeJS with NVM for Windows
 
-Before starting the installation, make sure to kill your Visual Studio Code if you have it installed. To do that on Windows, open a command prompt(type `cmd` in the windows start bar, then select "Run as administrator") and run the command `taskkill.exe /IM code.exe`.
+Before starting the installation, make sure to kill your Visual Studio Code if you have it installed. To do that on Windows, open a command prompt (type `cmd` in the windows start bar, then select "Run as administrator") and run the command `taskkill.exe /IM code.exe`.
 
 1. Download `nvm-setup.exe` from the most recent release of [nvm-windows](https://github.com/coreybutler/nvm-windows/releases) (at time of writing this document, version was 1.2.2).
 
@@ -71,7 +71,7 @@ This tutorial assumes you’re using the Bash or Zsh shells (if you don’t know
    > Note: You can also restart your terminal by running `source ~/.bashrc` or `source ~/.zshrc` depending on your shell.
 3. Verify nvm is working by entering `command -v nvm`. If your terminal prints
    out `nvm`, it should be working. If you see `nvm: command not found` or no
-   feedback, open a new terminal and trying again or restart from step 1.
+   feedback, open a new terminal and try again or restart from step 1.
 4. Install the required version of Node.js by typing `nvm install 24`.
 5. To use this version of NodeJS, run the command `nvm use 24`.
 
@@ -96,11 +96,8 @@ This tutorial assumes you’re using the Bash or Zsh shells (if you don’t know
 
 1. Open a shell (for Linux / Mac) or windows powershell/command prompt (for Windows).
 2. Run the command `node -v`
-
 - This should print the current version of nodeJS installed (24.x.x).
-
 3. Run the command `npm -v`
-
 - This should print the current version of npm installed (v11.x.x).
 - ![image](./assets/week1-getting-started/node/verification.png)
 
@@ -228,7 +225,7 @@ Typescript is a superscript of JavaScript which adds type information and other 
 6. Modify your file to produce a type error by trying to write a `number` to the variable `message` that has type `string`:
 
    - observe the message that you get.
-   - ![image](./assets/week1-getting-started/ts/run1.png)
+   - ![image](./assets/week1-getting-started/ts/run2.png)
 
 7. Run the command `node hello-world.ts`. What happens?
 
