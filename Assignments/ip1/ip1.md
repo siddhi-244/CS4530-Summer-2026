@@ -197,6 +197,8 @@ Places to look for guidance:
  - The implementations of Nim and Guessing Game in the directory `server/src/games`, which may be a helpful basis for comparison.
  - The provided test file `server/tests/games/connect4.spec.ts` can help you reason about the expected behavior of Connect 4.
 
+ A reference implementation is available at <https://summer-26-gamenite.onrender.com/>, you'll need to create an account (or two) to use this reference implementation.
+
 This task is worth 25 points: 
  - 15 points will be assigned automatically based on passing our test suite
  - 10 points will be assigned by TAs manually checking for issues with [code style]({{ site.baseurl }}{% link style.md %}). Take care to document any helper functions you include.
@@ -231,7 +233,7 @@ The first and most glaring is that some of the functions, despite claiming to re
 
  4. **Challenge**: there's another definite bug in the user service that's a little more difficult to find, but that could potentially represent a security issue. Identify the bug and include a cURL command that demonstrates it, explain why the cURL command demonstrates something bad happening, create a failing test, and fix the bug. (This is just worth 5% of the overall score for this assignment. Don't get stuck here and neglect the other tasks!)
 
-This task is worth 20 points: 5 points for each sub-part.
+This task is worth 20 points: 6 points for sub-parts 1-3 and 2 point for subpart 4.
 
 ### Task 4: Creating an Auth model
 
