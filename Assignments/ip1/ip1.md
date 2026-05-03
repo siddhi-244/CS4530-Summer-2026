@@ -195,7 +195,9 @@ Places to look for guidance:
  - The type specification for a game implementation in `server/src/games/gameLogic.ts`, explains what each unimplemented function does.
  - The types of Connect4 in `shared/src/games/connect4.types.ts`, explain in detail how the game is intended to work.
  - The implementations of Nim and Guessing Game in the directory `server/src/games`, which may be a helpful basis for comparison.
- - The provided test file `server/tests/games/connect4.spec.ts` can help you reason about the expected behavior of Connect 4.
+ - The provided test file `server/src/games/connect4.spec.ts` can help you reason about the expected behavior of Connect 4.
+
+ A reference implementation is available at <https://summer-26-gamenite.onrender.com/>, you'll need to create an account (or two) to use this reference implementation.
 
 This task is worth 25 points: 
  - 15 points will be assigned automatically based on passing our test suite
@@ -205,7 +207,7 @@ This task is worth 25 points:
 
 The purpose of this part of the assignment is to get used to writing Vitest tests. *(Copilot-esque LLM autocompletion is quite good at writing tests, and you'll have a chance to try this out later in the class. If you have Copilot-style autocompletion enabled, you are violating the course's academic integrity policy and risking a failing grade, and in addition, this task will be exceptionally pointless and boring.)*
 
-Write tests for Tic-Tac-Toe in the file, `server/tests/games/ticTacToe.spec.ts`. Your tests should achieve full branch coverage on the current implementation of Tic Tac Toe: when you run `npm run test` in the `server` directory, Vitest should report no "Uncovered Line #s" in `src/games/ticTacToe.ts`. (You can also open the `index.html` file in the `coverage` folder that `vitest` creates when you run `npm run test`, which provides an easily readable coverage report.) There are other parts of the application that don't have full coverage, but you only need to worry about coverage of the `ticTacToe.ts` implementation.
+Write tests for Tic-Tac-Toe in the file, `server/src/games/ticTacToe.spec.ts`. Your tests should achieve full branch coverage on the current implementation of Tic Tac Toe: when you run `npm run test` in the `server` directory, Vitest should report no "Uncovered Line #s" in `src/games/ticTacToe.ts`. (You can also open the `index.html` file in the `coverage` folder that `vitest` creates when you run `npm run test`, which provides an easily readable coverage report.) There are other parts of the application that don't have full coverage, but you only need to worry about coverage of the `ticTacToe.ts` implementation.
 
 Make sure to look at the tests for Nim and Guessing Game, they will provide an excellent guide.
 
@@ -231,7 +233,7 @@ The first and most glaring is that some of the functions, despite claiming to re
 
  4. **Challenge**: there's another definite bug in the user service that's a little more difficult to find, but that could potentially represent a security issue. Identify the bug and include a cURL command that demonstrates it, explain why the cURL command demonstrates something bad happening, create a failing test, and fix the bug. (This is just worth 5% of the overall score for this assignment. Don't get stuck here and neglect the other tasks!)
 
-This task is worth 20 points: 5 points for each sub-part.
+This task is worth 20 points: 6 points for sub-parts 1-3 and 2 point for subpart 4.
 
 ### Task 4: Creating an Auth model
 
